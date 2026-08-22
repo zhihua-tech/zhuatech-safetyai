@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'SAFETYAI',systemName:'知华作业安全 AI 平台',englishName:'WORKPLACE SAFETY AI',theme:{primary:'#2f6657',dark:'#203c36',accent:'#d88945'},
  workspace:'安全生产中心 / 风险智能组',fieldWorkspace:'华东基地 / 现场安全组',period:'2026-08-15 · 实时管控',liveText:'作业风险于 10:31 更新',fieldContextLabel:'当前班次',fieldContext:'白班 08:00—17:00',fieldUser:'程野',fieldRole:'现场安全员',adminUser:'梁安',adminRole:'安全运营负责人',
