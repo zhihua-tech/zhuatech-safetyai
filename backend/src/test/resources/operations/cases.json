@@ -1,0 +1,61 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "qualifiedPeopleGap": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "qualifiedPeople": "3"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "permitUntil": "2026-10-24"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "watchPresent": "NO"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "watchPresent": "NO",
+      "watchRequired": "NO"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "qualifiedPeople": "5"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "workDate": "2026-10-23"
+    },
+    "expected": {},
+    "error": true
+  }
+]
