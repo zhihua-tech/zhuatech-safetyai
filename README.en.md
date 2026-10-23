@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Worker training qualification matrix
+
+Checks role-specific worker qualification requirements against certificate validity dates, without issuing work permits or verifying certificate authenticity. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech SafetyAI
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for enterprise AI-assisted workflows with human governance.
